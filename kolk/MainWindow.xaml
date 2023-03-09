@@ -59,10 +59,10 @@
         <Button x:Name="press12Button" Grid.Row="3" Grid.Column="4"
             HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
             Content="*" FontSize="15" Click="press7Button_Click"></Button>
-        <Button x:Name="press13Button" Grid.Row="4" Grid.Column="1"
+        <Button x:Name="press13Button" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2"
             HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
             Content="=" FontSize="15" Click="press7Button_Click"></Button>
-        <Button x:Name="press14Button" Grid.Row="4" Grid.Column="2"
+        <Button x:Name="press14Button" Grid.Row="4" Grid.Column="3"
             HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
             Content="/" FontSize="15" Click="press7Button_Click"></Button>
         <TextBlock x:Name="inputTextBlock" Grid.Row="0" Grid.Column="0"
