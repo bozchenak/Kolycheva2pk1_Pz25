@@ -27,7 +27,65 @@ namespace kolk
 
         private void press7Button_Click(object sender, RoutedEventArgs e)
         {
+            infoTextBlock.Text += "7";
+        }
+        private void press8Button_Click(object sender, RoutedEventArgs e)
+        {
+            infoTextBlock.Text += "8";
+        }
+        private void press9Button_Click(object sender, RoutedEventArgs e)
+        {
+            infoTextBlock.Text += "9";
+        }
+        private void press4Button_Click(object sender, RoutedEventArgs e)
+        {
+            infoTextBlock.Text += "4";
+        }
+        private void press5Button_Click(object sender, RoutedEventArgs e)
+        {
+            infoTextBlock.Text += "5";
+        }
+        private void press6Button_Click(object sender, RoutedEventArgs e)
+        {
+            infoTextBlock.Text += "6";
+        }
+        private void press1Button_Click(object sender, RoutedEventArgs e)
+        {
+            infoTextBlock.Text += "1";
+        }
+        private void press2Button_Click(object sender, RoutedEventArgs e)
+        {
+            infoTextBlock.Text += "2";
+        }
+        private void press3Button_Click(object sender, RoutedEventArgs e)
+        {
+            infoTextBlock.Text += "3";
+        }
+        private void press0Button_Click(object sender, RoutedEventArgs e)
+        {
+            infoTextBlock.Text += "0";
+        }
+        private void press10Button_Click(object sender, RoutedEventArgs e) //сложение
+        {
+            infoTextBlock.Text += "+";
+        }
+        private void press11Button_Click(object sender, RoutedEventArgs e) //сложение
+        {
+            infoTextBlock.Text += "-";
+        }
+        private void press12Button_Click(object sender, RoutedEventArgs e) //сложение
+        {
+            infoTextBlock.Text += "*";
+        }
+        private void press14Button_Click(object sender, RoutedEventArgs e) //сложение
+        {
+            infoTextBlock.Text += "/";
+        }
+        private void press13Button_Click(object sender, RoutedEventArgs e) //сложение
+        {
 
         }
+        
+
     }
 }
